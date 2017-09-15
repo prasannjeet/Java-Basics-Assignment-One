@@ -4,7 +4,7 @@ public class CountChars {
 	public static void main(String[] args) {
 		BufferedReader br = null;
 		try {
-			br = new BufferedReader(new FileReader("src/ps222vt_assign1/SergioGarciaBeatsTheAmericans.txt"));
+			br = new BufferedReader(new FileReader("javaBasicsOne/ps222vt_assign1/SergioGarciaBeatsTheAmericans.txt"));
 			String str;
 			int i=0,u=0,l=0,w=0,o=0,n=0;
 			/* Using readLine() to read each line till we reach the end of the file
@@ -43,5 +43,4 @@ public class CountChars {
 			}
 		}
 	}
-
 }
