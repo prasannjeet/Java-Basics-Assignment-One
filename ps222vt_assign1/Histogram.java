@@ -14,7 +14,7 @@ public class Histogram {
 			String str = null;
 			File f = null;
 			try {
-				str = "src\\ps222vt_assign1\\integers.dat";
+				str = "javaBasicsOne\\ps222vt_assign1\\integers.dat";
 				file = new FileReader(str);
 				//System.out.println("Debug, Created File f");
 				f = new File(str);
