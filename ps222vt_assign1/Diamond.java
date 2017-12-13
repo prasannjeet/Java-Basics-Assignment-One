@@ -1,8 +1,18 @@
 package ps222vt_assign1;
 import java.util.Scanner;
+
 import java.util.*;
 public class Diamond {
-
+	int x;
+	
+	public void noWay (int a) {
+		int temp;
+		this.x =a;
+		
+		this.temp = 5;
+	}
+	
+	
 	public static void main(String[] args) {
 		Scanner scan = null;
 		try {
