@@ -1,5 +1,4 @@
 package ps222vt_assign1;
-import java.util.Scanner;
 import java.util.*;
 public class LargestK {
 	public static void main(String[] args) {
@@ -13,6 +12,11 @@ public class LargestK {
 			System.out.println("Oops! Enter only numbers, other characters are not allowed!\nProgram will now terminate.");
 			scan.close();return;
 		}			
+		if (N<0) {
+			//Error if input value is a negative integer
+			System.err.println("Input value should be a positive number. Program will now exit");
+			System.exit(-1);
+		}
 		int i = 0, totalSum = 0;
 		for (i=0; totalSum<=N; i++){
 			totalSum = totalSum+(i)*2;
